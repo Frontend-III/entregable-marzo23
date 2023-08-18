@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px 0;
+}
+
+form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #1e1e1e;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    padding: 8px;
+    font-size: 20px;
+}
+
+button{
+    font-size: 18px;
+    padding: 10px;
+    width: 60%;
+    align-self: center;
+    background-color: #43bb93;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 20px 0;
+}
+
+button:hover{
+    color: #000;
+    background-color: #afda49;
+    box-shadow: -1px -1px 2px 0px rgba(0,0,0,0.75);
+}
+
+.error_msj{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+    color: red;
+}
+
+.card_info{
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid #1e1a88;
+    box-shadow: 2px 4px 5px 0px rgba(36, 70, 156, 0.25);
+}
+
+.card_data{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
